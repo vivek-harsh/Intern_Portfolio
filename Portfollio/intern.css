@@ -1,0 +1,143 @@
+*{padding:0; margin: 0; box-sizing: border-box;}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("img/hdr1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%,100% 0,100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.logo{color: white; letter-spacing: 3px;
+    font-size: 50px; padding-left: 100px;}
+
+.menu a{ color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin: 5px;
+   font-size: 20px;
+   font-weight: bold;}
+
+.menu{ margin-right: 100px;}
+
+nav{ width: 100%; height: 70px; display: flex;      justify-content: space-between;align-items:      center;}
+
+.logo span{
+    color:#DC143C;}
+
+.menu a:hover{
+    background:#DC143C;
+    transition: 0.4;
+}
+
+.text{ color:snow;
+      margin-top: 100px;
+      margin-left: 100px;
+      max-width: 450px;}
+
+.text h1{ font-size: 50px; margin: 6px 0px;}
+
+.text p{ font-size: 25px;}
+
+.c-btn{ border: none; outline: none; color:  white; background: #DC143C; padding: 10px; 
+ margin-top: 20px;}
+
+#about{ padding: 100px 50px;}
+
+.sec-info{ font-weight: bold;
+         text-align: center;}
+
+.sec-info{ font-size: 50px;}
+
+.sec-info p{ font-size: 35px; color: darkred;}
+
+.about-row{display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+
+.a-l-c{flex-basis: 50%;}
+
+.a-l-c img{ width: 100%; padding: 50px;}
+
+.a-r-c{flex-basis: 50%;}
+#p-tittle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.a-l-c p{
+    font-size:20px;
+    text-align: justify;
+}
+.a-r-c p{
+    font-size: 20px;
+    text-align: justify;
+}
+#skills{
+    padding:100px 50px;
+    background:url(img/img2.jpg);
+    background-size: cover;
+    color: white;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    flex-wrap: wrap;
+    background: rgb(45,52,54);
+    padding: 50px;
+
+}
+.skills-l-c{
+    flex-basis: 50%;
+    
+    text-align: justify;
+    
+
+}
+.skills-l-c p{
+    font-size: 20px;
+    width: 100%;
+    padding: 50px;
+        flex-basis: 50%;
+    
+    text-align: justify;
+}
+.skills-r-c{
+    flex-basis: 50%;
+
+    
+}
+
+.c1-btn{ border: none; outline: none; color:  white; background:#DC143C; padding: 10px; 
+ margin-top: 20px; margin-left: 50px;}
+
+.skills-r-c img{ width: 300px; height: 300px;padding:5px;float:right;}
+
+#Services{ padding: 100px 50px; }
+
+.Services-row{ display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;}
+
+.Services-box{ flex-basis: 25%; text-align: center; box-shadow: 2px 3px 5px grey; padding: 20px; margin-top: 20px;}
+
+.Services-box:hover{ background: darkred; color: white; transition: 0.4s;}
+
+.Services-box img{ width: 60%;}
+
+#contact{padding: 100px 50px; background: linear-gradient(160deg,brown 45%, white 0%);}
+
+.contact-row{ display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+
+.contact-l-c{flex-basis: 50%;} .contact-l-c img{width: 60%;}
+
+.contact-r-c{flex-basis: 50%;}
+
+.contact-r-c form{text-align: center;}
+
+.contact-r-c form h2{margin-bottom: 20px;}
+
+.contact-r-c form input{width:60%; padding: 10px; margin-bottom: 10px;}
+
+.contact-r-c form textarea{width: 60%; padding: 10px;}
+
+#footer{ background:black; color: white; padding-left: 50px; display:flex ;   font-size: 20px;}
+
+    
